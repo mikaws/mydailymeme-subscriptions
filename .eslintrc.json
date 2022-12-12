@@ -1,0 +1,7 @@
+{
+  "extends": "['standard-with-typescript', 'plugin:boundaries/recommended']",
+  "parserOptions": {
+    "project": "./tsconfig.eslint.json",
+    "tsconfigRootDir": "./"
+  }
+}
