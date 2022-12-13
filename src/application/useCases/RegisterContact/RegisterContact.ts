@@ -1,6 +1,6 @@
-import { Contact } from "../../../domain/Contact";
-import { IRegisterContactDTO } from './IRegisterContactDTO'
+import { RegisterContactDTO } from "./RegisterContactDTO";
+import { RegisterContactResponse } from "./RegisterContactResponse";
 
 export interface RegisterContact {
-    registerUserOnMailingList(contactData: IRegisterContactDTO): Promise<Contact>
+    registerContactOnMailingList(contactData: RegisterContactDTO): Promise<RegisterContactResponse>
 }

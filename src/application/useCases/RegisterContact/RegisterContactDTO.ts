@@ -1,4 +1,4 @@
-export interface IRegisterContactDTO {
+export interface RegisterContactDTO {
     email: string;
     subscription: boolean;
 }
